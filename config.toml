@@ -1,0 +1,17 @@
+# my vinegar config
+
+wineroot = "/home/user/wine-ge"
+
+[env]
+WINEFSYNC = "1"
+
+[player]
+dxvk = true
+renderer = "D3D11"
+
+[player.env]
+DXVK_HUD = "1"
+
+[studio]
+dxvk = false
+renderer = "OpenGL"
